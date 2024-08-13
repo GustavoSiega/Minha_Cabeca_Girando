@@ -9,7 +9,7 @@
 #### git push -> sobe para o github
 #### git status -> verifica o status
 #### git pull -> Para atualizar a branch local com as alterações de uma branch remota.
-#### git pull (significado) -> significa basicamente dois comandos git fetch e git merge.
+#### git pull (significado) -> significa basicamente dois comandos git fetch (volta do rep. remoto e volta para rep. local) e git merge (rep. local para local).
 #### git log -> acessa o histórico dos commits
 #### git checkout nome-da-branch -> acessar uma branch 
 
