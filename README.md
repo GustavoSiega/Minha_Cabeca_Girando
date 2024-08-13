@@ -12,6 +12,7 @@
 #### git pull (significado) -> significa basicamente dois comandos git fetch (volta do rep. remoto para rep. local) e git merge (rep. local para local).
 #### git log -> acessa o histórico dos commits
 #### git checkout nome-da-branch -> acessar uma branch 
+#### restore --staged: volta da stage para local (estava no pré-commit e se arrependeu)
 
 #### git switch nome-da-branch -> trocar de branch
 
