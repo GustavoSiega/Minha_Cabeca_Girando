@@ -12,15 +12,17 @@
 #### git pull (significado) -> significa basicamente dois comandos git fetch (volta do rep. remoto para rep. local) e git merge (rep. local para local).
 #### git log -> acessa o histórico dos commits
 #### git checkout nome-da-branch -> acessar uma branch 
-#### restore --staged: volta da stage para local (estava no pré-commit e se arrependeu)
-
+#### git restore --staged -> volta da stage para local (estava no pré-commit e se arrependeu)
+#### stash -> é como se fosse uma stage pra esconder as "coisas" (arquivos que nao quer resolver os conflitos)
+#### git stash -> vai do local para a stash 
+#### git stash apply stash{0} -> da stash pro local (o ZERO é uma posição da lista em que esta o arquivo que você quer voltar para o local)
+#### git stash list -> vai listar mostrando os commits como referencia
 #### git switch nome-da-branch -> trocar de branch
-
 #### git branch -d nome-da-branch -> deletar uma branch
 
 #### Para resolver o conflito do código, por que é preferível utilizar o rebase em vez do merge?
 #### - História mais limpa;
-#### #### - Evita commits de merge desnecessários;
+#### - Evita commits de merge desnecessários;
 #### - Resolução de conflitos mais clara;
 
 #### Como inserir apenas um commit de uma branch para a main?
