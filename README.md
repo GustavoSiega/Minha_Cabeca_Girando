@@ -37,7 +37,7 @@
 ####	git add .
 ####	git commit -m "Descrição das alterações"
 
-#### -  Empurre a branch para o repositório remoto
+#### -  Joga a branch para o repositório remoto
 ####	git push origin minha-branch
 
 #### - Acesse o repositório no GitHub e inicie um pull request
