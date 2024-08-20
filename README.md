@@ -8,9 +8,11 @@
 #### gti commit -m "alteracoes..." -> Salva no repositório local
 #### git push -> sobe para o github
 #### git status -> verifica o status
-#### git pull -> Para atualizar a branch local com as alterações de uma branch remota.
-#### git pull (significado) -> significa basicamente dois comandos git fetch e git merge.
+#### git pull -> Para atualizar a branch local com as alterações de uma branch remota (do rep. remoto direto para o local)
+#### git pull (significado) -> significa basicamente dois comandos git fetch (volta do rep. remoto para rep. local) e git merge (rep. local para local).
+#### git log -> acessa o histórico dos commits
 #### git checkout nome-da-branch -> acessar uma branch 
+
 #### git switch nome-da-branch -> trocar de branch
 #### git branch -d nome-da-branch -> deletar uma branch
 ### Para resolver o conflito do código, por que é preferível utilizar o rebase em vez do merge?
@@ -30,7 +32,7 @@
 ####	git add .
 ####	git commit -m "Descrição das alterações"
 
-#### -  Coloca a branch para o repositório remoto
+#### -  Empurre a branch para o repositório remoto
 ####	git push origin minha-branch
 
 #### - Acesse o repositório no GitHub e inicie um pull request
